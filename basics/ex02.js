@@ -14,9 +14,18 @@
 
 //  écrire votre code sous ce commentaire
 
+function retParam(nb){
+    return retParam(nb);
+};
+
+console.log(retParam(5));
 
 /*
   Test 1
   Résultat attendu: "5"
 */
-retParam(5);
+
+
+
+
+

@@ -18,8 +18,19 @@
     qui retourne ce paramètre "nb";
 */
 
+//  écrire votre code sous ce commentaire
+
+
 function returnParameter(nb) {
     return nb;
 }
+console.log(returnParameter(5));
 
-//  écrire votre code sous ce commentaire
+
+
+
+let x = 3
+function returnParameter(nb) {
+    return nb;
+}
+console.log(returnParameter(x));

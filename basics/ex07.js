@@ -7,6 +7,14 @@
 
 //  écrire votre code sous ce commentaire
 
+const boostedAddition = (tab)=>{
+	let sum = 0
+	for (let i=0; i<tab.length; i++){
+		sum +=tab[i] 
+	}
+	return sum
+
+	}
 /*
   Test 1
   Résultat attendu : 15

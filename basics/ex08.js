@@ -14,7 +14,27 @@
 */
 
 //  écrire votre code sous ce commentaire
+const isEven = (nb) => (nb%2==0) ? 1 : 0;
 
+const isAllEven = (array) =>{
+  result = 0
+  for (let i=0; i<array.length;i++){
+    if (isEven(array[i])===1){
+      result === 1
+      }
+    result ===0 
+  }
+} 
+
+
+const isEven = (nb) => (nb%2==0) ? nb =1 : nb = 0;
+
+const isAllEven = (array) =>{
+  for (let i=0; i<array.length;i++){
+  array[i] =array[i].isEven()
+  }
+return array
+} 
 /*
   Test 1
   Résultat attendu : 0

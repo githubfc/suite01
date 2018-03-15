@@ -11,7 +11,17 @@
 */
 
 //  écrire votre code sous ce commentaire
-
+const getHumanTypeByAge = (nb) => (nb<12) ? "enfant" : (nb >=12 && nb <18 ) ? "ado" : (nb >=18 && nb <124 ) ? "adulte" : "impossible...ou encore jamais vu",
+  
+const getHumanTypeByAge = (nb) =>{
+  if (nb<12){
+    return "enfant"  }
+  else if (nb >=12 && nb <18 ){
+    return "ado" }
+  else if (nb >=18 && nb <124 ){
+    return "adulte" }
+  return "impossible...ou encore jamais vu"
+}
 /*
   Test 1
   Résultat attendu : "impossible... ou encore jamais vu"

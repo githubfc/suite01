@@ -17,12 +17,13 @@
   Test 1
   Résultat attendu : 15
 */
+const addition = (a,b) => a+b
+console.log(addition(6, 9));
 
-addition(6, 9);
 
 /*
   Test 2
   Résultat attendu : 444444
 */
-
+const addition = (a,b) => console.log(a+b)
 addition(98766, 345678);
